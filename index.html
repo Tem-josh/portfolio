@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
   </head>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./style.css" />
   <body class="">
     <ul class="nav">
       <li class="nav-item top"><a class="nav-link" href="#hero">Top</a></li>
@@ -24,7 +26,7 @@
       <div>
         <div class="hero-text-container">
           <p class="hero-i-am">I AM</p>
-          <h1 class="hero-text">TEMITOPE JOSHUA</h1>
+          <h1 class="hero-text">TEMITOPE JOSH</h1>
         </div>
 
         <div class="photo-container">
@@ -45,7 +47,7 @@
             target="_blank"
             class="view-resume"
             href="/media/Joshua's Resume.pdf"
-            >View Resume</a
+            >View Resume <i class="fa-solid fa-arrow-trend-up" style="margin-left: 18px;"></i></a
           >
         </div>
       </div>
@@ -56,7 +58,7 @@
         <h3 class="title">ABOUT</h3>
 
         <div class="about-text">
-          <p class="pan">I'm Temitope Joshua, a product designer looking for another opportunity to make a change.</p>
+          <p class="pan">I'm Temitope Joshua, a product designer with a fair background in web development.</p>
           <p class="pan">
             I'm currently an Instructor in the Product Design Department at SQI
             College of ICT, Nigeria, a Registered Tech Institution, delivering
@@ -67,6 +69,7 @@
             also translating clients concepts into innovative solutions for
             service-based businesses and startups.
           </p>
+          <p></p>
         </div>
       </div>
     </section>
@@ -77,7 +80,7 @@
 
         <ul class="expertise-list">
           <li>FIGMA</li>
-          <li>MOBILE Design</li>
+          <li>MOBILE DESIGN</li>
           <li>HTML5</li>
           <li>CSS3</li>
           <li>BOOTSTRAP</li>
@@ -112,13 +115,13 @@
       </div>
     </section>
 
-    <section id="process" class="process-container container">
+    <section id="process" class="process-container">
       <div>
         <h3 class="title">MY PROCESS</h3>
         <div class="process-content">
-          <div class="">
+          <div class="process-job">
             <img
-              width="100%"
+              width="150%"
               class="process-image"
               src="/media/JOSH.png"
               alt="Product Designer"
@@ -175,16 +178,33 @@
     </section>
 
     <section id="contact">
-      <h2 class="head">
-        Looking for my next opportunity to make a change, let's connect!
-      </h2>
-      <p>
-        If you need a highly inspired designer to execute your creative ideas or
-        need an advice on product design, kindly send me a message at
-        <a href="mailto:joshuaagboola52@gmail.com">joshuaagboola52@gmail.com</a>
-      </p>
+      <div class="sides">
+        <h2 class="head">
+          Looking for my next opportunity to make a change, let's connect! 
+          <!-- <a href="">Linkedin</a> -->
+          <!-- <a href="">Github</a> -->
+        </h2>
+        <p>
+          If you need a highly inspired designer to execute your creative ideas or
+          need an advice on product design, <br>  kindly send me a message at
+          <a class="today" href="mailto:joshuaagboola52@gmail.com">joshuaagboola52@gmail.com</a>
+        </p>
+        <a target="_blank" href="https://www.behance.net/TemitopeJoshua">
+          <img class="try" src="/media/behance-logo-1373E40919-seeklogo.com-removebg-preview.png" width="30px" alt=""></a>
+      </div>
+
+      
+    <form class="sides sides-1" id="contact-form">
+      <label for="">Email</label><br>
+      <input class="input" required type="email" name="user_email" id="email" placeholder="Input your Email"><br>
+      <label for="message">Message:</label><br>
+    <textarea class="input" id="message" name="message" rows="5" cols="50" required></textarea><br>
+    
+    <input class="btn"  type="submit" value="Send">
+    </form>
     </section>
 
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
