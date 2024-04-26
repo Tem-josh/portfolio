@@ -1,0 +1,27 @@
+
+body {
+    background-color: var(--clr-dark);
+  }
+
+.nav {
+    list-style: none;
+    padding-block: 1rem;
+    justify-content: center;
+    display: flex;
+    gap: 6rem;
+    position: sticky;
+    background: linear-gradient(var(--clr-dark) 60%, #1f1f1f);
+    top: 0;
+    z-index: 1;
+  }
+  
+  .nav-link {
+    color: rgb(229, 229, 229);
+    font-size: 16px;
+    /* font-weight: bold; */
+  }
+  
+  .nav-link:hover {
+    color: var(--clr-green);
+    cursor: pointer;
+  }

@@ -1,0 +1,16 @@
+
+#container {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  
+  #container img {
+    margin: 10px;
+    width: 300px;
+    height: auto;
+  }
+
+
+  
