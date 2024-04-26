@@ -67,7 +67,7 @@ body {
 .photo-container {
   width: 550px;
   aspect-ratio: 1.2;
-  background: url("/media/JOSH.png");
+  background: url("./media/JOSH.png");
  background-size: cover;
   background-position: center;
   position: absolute;
