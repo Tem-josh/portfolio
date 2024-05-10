@@ -154,7 +154,7 @@ body {
 }
 
 #expertise{
-  margin-top: -250px;
+  margin-top: -170px;
 }
 .expertise-list {
   justify-content: center;
@@ -640,7 +640,7 @@ color: #b0b0b0;
     
   }
   .img{
-    width: 400px;
+    width: 380px;
     height: 300px;
   
   }
@@ -683,7 +683,8 @@ color: #b0b0b0;
     width: 70%;
   }
   .market-text{
-    margin: 0px 70px 0px 0px;
+    margin: 0px 60px 10px 0px;
+    line-height: 24px;
   }
 }
 
