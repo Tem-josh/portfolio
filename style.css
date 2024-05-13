@@ -601,8 +601,11 @@ color: #b0b0b0;
   /* min-height: 55lvh; */
   
 }
+.hero-i-am{
+  font-size: 0.7rem;
+}
   .hero-text {
-    font-size: 5.2em;
+    font-size: 5.3em;
     line-height: 6rem;
   }
   .hero-container {
@@ -611,13 +614,13 @@ color: #b0b0b0;
  padding: 40px 0px 5px 20px;
   }
   .photo-container{
-    right: 10%;
-    bottom: 45%;
-    width: 80%;
+    right: 6%;
+    bottom: 35%;
+    width: 60%;
     /* z-index: -5; */
   }
   .hero-subtext {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-right: 190px;
     color: #fff;
     /* border: 1px solid red; */
@@ -627,6 +630,7 @@ color: #b0b0b0;
   }
   .about-text{
     width: 90%;
+    font-size: 15px;
   }
   #projects{
     padding: 80px 0px 60px 0px;
@@ -672,6 +676,7 @@ color: #b0b0b0;
     grid-template-columns: 100%;
     margin: 0px 0px 0px 10px;
     
+    
   }
   #contact{
     /* width: 100%; */
@@ -685,6 +690,7 @@ color: #b0b0b0;
     margin: 0px 0px 0px 60px;
     width: 70%;
   }
+  
   .market-text{
     margin: 0px 60px 10px 0px;
     line-height: 24px;
